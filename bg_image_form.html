@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body{
+			margin-top: 30px;
+		}
+		.table_one{
+			background-image: url("asset/triangle.png");
+			background-repeat: no-repeat;
+			width: 590px;
+			height: 600px;
+			color: white;
+		}
+		.main_div{
+			text-align: center;
+			padding: 45px 80px 45px 80px;
+		}
+		.table_two{
+			border: 6px solid cyan;
+			background-color: #46458C;
+		}
+		.table_three{
+			background-color: #46458C;
+		}
+		.font{
+			font-family: 'Kanit', sans-serif;
+		}
+		.bold{
+			font-size: 46px;
+		}
+		.light{
+			font-size: 19px;
+		}
+		.text_box{
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-color: cyan;
+			height: 35px;
+			width: 360px;
+			background-color: #46458C;
+			text-decoration: none;
+			outline: none;
+
+		}
+		.second_div{
+			padding: 10px 20px 40px 20px;
+		}
+		.no_bdr{
+			border: none;
+		}
+		input{
+			margin-top: 5%;
+			color: cyan;
+		}
+		::placeholder{
+			color: cyan;
+		}
+		button{
+			margin-top: 8%;
+			height: 30px;
+			width: 80px;
+			background-color: transparent;
+			color: white;
+			border-color: white;
+		}
+		button:hover{
+			cursor: pointer;
+		}
+		button:active{
+			transform: translateY(2px);
+
+		}
+	</style>
+</head>
+<body>
+	<table border="0" align="center" class="font table_one">
+		<tr><td>
+			<div class="main_div">
+				<table border="1" align="center" class="table_two">
+					<tr><td class="no_bdr"><div class="second_div">
+						<table border="0" align="center" class="table_three">
+							<tr>
+						<td>
+							<div><p class="bold" style="margin-bottom: 0;"><b>Contact Us</b></p>
+								<p class="light" style="margin: 0; padding-top: 0;">Have Questions?? Contact Us Now!!</p></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><input type="text" placeholder="Your Name" class="text_box"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><input type="email" placeholder="Your Email" class="text_box"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><input type="text" placeholder="Your Message"class="text_box"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<button>Submit &#8594;</button>
+							</div>
+						</td>
+					</tr>
+						</table>
+					</div></td></tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+	</table>
+</body>
+</html>
